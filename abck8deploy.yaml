@@ -15,7 +15,7 @@ spec:
         app: abcapp
     spec:
       containers:
-        - image: grbsntcs/abctech:v28
+        - image: grbsntcs/abctech:TAG
           name: abcapp
           ports:
           - containerPort: 8080
